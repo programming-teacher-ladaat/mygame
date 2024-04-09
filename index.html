@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COLORS GAME</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js" defer></script>
+    </head>
+
+    <body onload="checkStorage(); drawScreen();" onunload="saveStorage()">
+        <div class="header">
+            <div class="nav-list-item" title="דף הבית"><a href="../index.html"><img class="menu-img img0"
+                src="assets/home page.png"></a></div>
+            <h1>COLORS GAME</h1>
+        </div>
+        <div class="flex">
+            <div class="flex-col">
+                <div id="sqr1"></div>
+                <div id="sqr2"></div>
+            </div>
+            <div class="flex-col">
+                <div id="sqr3"></div>
+                <div id="sqr4"></div>
+            </div>
+            <audio id="ok">
+                <source src="assets/LGBUBBLE.WAV" type="audio/WAV">
+            </audio>
+            <audio id="error">
+                <source src="assets/SBOINGLO.WAV" type="audio/WAV">
+            </audio>
+            <p id="grade"></p>
+            <p id="best-grade"></p>
+        </div>
+    </body>
+
+</html>
