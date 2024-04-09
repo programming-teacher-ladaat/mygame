@@ -4,12 +4,15 @@ body {
     --same-color: rgb(249, 132, 169);
     /* background-image:url('../colors-game/assets/backGroundAll.jpeg'); */
     background-color: beige;
-    background-repeat: no-repeat;
+    color: red;
+    cursor: pointer;
     background-size: cover;
     background-position: center;
 }
 
-
+.a {
+    height: 100px;
+}
 
 div.flex-col > div {
     background-image: url(./assets/ice-cream.png);
