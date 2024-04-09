@@ -1,17 +1,17 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    --other-color: rgb(163, 230, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --other-color: rgb(163, 217, 230);
     --same-color: rgb(249, 132, 169);
     /* background-image:url('../colors-game/assets/backGroundAll.jpeg'); */
     background-color: beige;
     color: red;
+
     cursor: pointer;
-    background-size: cover;
-    background-position: center;
 }
 
 .a {
-    height: 100px;
+    width: 50px;
+    height: 200px;
 }
 
 div.flex-col > div {
