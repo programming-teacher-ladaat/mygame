@@ -79,3 +79,5 @@ function drawScreen() {
         changeColor();
     }
 }
+
+console.log('hello');
